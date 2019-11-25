@@ -44,4 +44,8 @@ exports.product_delete = function(req,res){
   });
 };
 
+exports.login = function(req,res,next){
+
+}
+
 //https://medium.com/createdd-notes/starting-with-authentication-a-tutorial-with-node-js-and-mongodb-25d524ca0359
