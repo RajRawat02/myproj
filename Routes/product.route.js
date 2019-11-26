@@ -14,4 +14,7 @@ router.put('/products/:id/update',product_controller.product_update);
 router.delete('/products/:id/delete',product_controller.product_delete);
 
 router.post('/login',product_controller.login);
+
+router.post('/register',product_controller.register);
+
 module.exports = router;
